@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.center {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.img-logo {
+  width: 100px;
+}
+
+.img-coffee {
+  width: 300px;
+  height: auto;
+}
+
+.img-media {
+  width: 32px;
+  height: auto;
+}
+
+header {
+  height: 200px;
+  padding: 0 0;
+}
+
+.logo {
+  width: 50%;
+}
+
+.menu {
+  width: 50%;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 100px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+section.sobre {
+  height: calc(100% - 200px);
+  position: relative;
+}
+
+.extras {
+  border-radius: 100% 0% 0% 0%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 550px;
+  height: 590px;
+  background-color: #017143;
+}
+
+.social-media {
+  position: absolute;
+  right: 20px;
+  top: 90px;
+}
+
+.social-media img {
+  display: block;
+  width: 25px;
+  margin: 25px 0;
+}
+
+.texto-sobre {
+  margin-top: 100px;
+}
+
+.texto-sobre h1 {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-sobre p {
+  margin: 30px 0;
+  margin-right: 550px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  max-width: 800px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  border: 0;
+  background-color: #006442;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
